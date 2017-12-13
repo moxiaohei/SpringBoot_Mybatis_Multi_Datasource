@@ -56,7 +56,10 @@ src/
       ```
       INSERT INTO `city` VALUES ('1', '西安', '太美了');
       ```
+      
 3.改数据库配置   打开 application.properties 文件， 修改相应的数据源配置，比如数据源地址、账号、密码等。
+
 4.运行App.java文件中的main方法启动SpringBoot
+
 5.打开浏览器进行访问
 
