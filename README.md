@@ -25,10 +25,13 @@ src/
 ```
 
 2.数据库的准备如下：
+
   2.1 主数据库的准备
+  
       ```
       CREATE DATABASE first;
       ```
+      
       ```
       CREATE TABLE `teacher` (
         `id` int(11) NOT NULL,
@@ -38,13 +41,17 @@ src/
         PRIMARY KEY (`id`)
       ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
       ```
+      
       ```
       INSERT INTO `teacher` VALUES ('1', 'moxiaofei', '123456', '1');
       ```
+ 
   2.2 从数据库的准备
+  
       ```
       CREATE DATABASE second;
       ```
+      
       ```
       CREATE TABLE `city` (
       `cid` int(11) NOT NULL,
@@ -53,6 +60,7 @@ src/
       PRIMARY KEY (`cid`)
      ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
       ```
+      
       ```
       INSERT INTO `city` VALUES ('1', '西安', '太美了');
       ```
